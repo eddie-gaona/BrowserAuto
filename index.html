@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cdn.amplitude.com/script/9e139c325cd539f85b840be18a103663.js"></script>
+<script>
+  window.amplitude.init('9e139c325cd539f85b840be18a103663', {
+    "fetchRemoteConfig":true, "autocapture":true
+  });
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Buttons Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Button Click Example</h1>
+  <button id="button1" onclick="button1Function()">Button 1</button>
+  <button id="button2" onclick="button2Function()">Button 2</button>
+
+  <script>
+    function button1Function() {
+      alert("Button 1 clicked!");
+      console.log("Button 1 was clicked");
+    }
+
+    function button2Function() {
+      alert("Button 2 clicked!");
+      console.log("Button 2 was clicked");
+    }
+  </script>
+</body>
+</html>
